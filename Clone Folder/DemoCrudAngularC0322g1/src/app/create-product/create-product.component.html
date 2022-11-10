@@ -1,0 +1,19 @@
+<div class="container">
+
+<h1>create-product works!</h1>
+<table>
+  <tr>
+    <td><input placeholder="nhập id" [(ngModel)]="product.id"></td>
+  </tr>
+  <tr>
+    <td><input placeholder="nhập name" [(ngModel)]="product.name"></td>
+  </tr>
+  <tr>
+    <td><input placeholder="nhập price" [(ngModel)]="product.price"></td>
+  </tr>
+  <tr>
+    <td><input placeholder="nhập image" [(ngModel)]="product.img"></td>
+  </tr>
+</table>
+  <button type="button" class="btn btn-primary"  (click)="createProduct()">Create</button>
+</div>
